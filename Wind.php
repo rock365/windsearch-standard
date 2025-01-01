@@ -500,7 +500,7 @@ class Wind
 
 
 			$id_p = ceil($id / $this->mapping['properties']['param']['indexSegDataNum']);
-			$this->segword[$fir . $id_p][] = $v . '—|' . $id . PHP_EOL;
+			$this->segword[$fir . $id_p][] = $v . ' ' . $id . PHP_EOL;
 		}
 
 
@@ -598,7 +598,7 @@ class Wind
 						$tempArr = [];
 
 						foreach ($re as $f => $d) {
-							$arr_d = explode('—|', $d);
+							$arr_d = explode(' ', $d);
 							$arr_0 = $arr_d[0];
 							$arr_1 = $arr_d[1];
 

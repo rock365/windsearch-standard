@@ -60,7 +60,8 @@ $Wind->createMapping($mapping);
 ##### 导入数据
 
 ```php
-//导入数据，进行分词
+//导入数据
+
 //实例化引擎
 $Wind = new \Wind($indexName);
 // 导入数据前进行初始化
